@@ -1,0 +1,378 @@
+body{
+    background-image: url(../src/abg.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: repeat-y;
+    overflow-x: hidden;
+}
+
+img.hpic{
+    position:absolute;
+    left: 280px;
+    top: 150px;
+    width: 250px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+img.icon_in{
+    position: absolute;
+    top: 70px;
+    width: 40px;
+    height: 40px;
+}
+
+img.icon_gmail{
+    position: absolute;
+    top: 120px;
+    width: 40px;
+    height: 40px;
+}
+
+img.icon_tel{
+    position: absolute;
+    top: 170px;
+    width: 40px;
+    height: 40px;
+}
+
+h1, p{
+    margin-top: -15px;
+    font-family: Roboto;
+    color: #E7F6F2;
+}
+
+.sideName{
+    position: relative;
+    font-family: ROBOTO;
+    font-weight: 500;
+    font-size: 12px;
+    height: 305px;
+    width: 5px;
+    bottom: -45px;
+    right: 5px;
+    border: #E7F6F2;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.fName{
+    position: absolute;
+    top: 270px;
+    left: 720px;
+}
+
+.progP{
+    position: absolute;
+    top: 200px;
+    left: 280px;
+    width: 500px;
+
+}
+
+.progP1{
+    text-align: justify;
+}
+
+.desCont{
+    position: absolute;
+    top: 400px;
+    right: 300px;
+    width: 450px;
+    text-align: right;
+}
+
+.desP{
+    text-align: justify;
+    text-align-last: right;
+}
+
+.projP{
+    position: absolute;
+    top: 200px;
+    left: 280px;
+    width: 450px;
+}
+
+.resP{
+    position: absolute;
+    top: 200px;
+    left: 280px;
+    width: 500px;
+}
+
+.lin{
+    position: absolute;
+    font-family: Roboto;
+    text-decoration: none;
+    color: #E7F6F2;
+    top: 80px;
+    left: 60px;
+}
+
+.gmailP{
+    position: absolute;
+    font-family: Roboto;
+    text-decoration: none;
+    color: #E7F6F2;
+    top: 142px;
+    left: 60px;
+}
+
+.cNum{
+    position: absolute;
+    font-family: Roboto;
+    text-decoration: none;
+    color: #E7F6F2;
+    top: 195px;
+    left: 60px;
+}
+
+div.nBar{
+    position: absolute;
+    bottom: 5px;
+    right: 260px;
+    width: 8px;
+    height: 80px;
+    background-color: #E7F6F2;
+}
+
+div.sideBord{
+    position: absolute;
+    right: 135px;
+    bottom: 60px;
+}
+
+div.sideBar{
+    position: absolute;
+    right: 25px;
+    bottom: 3px;
+    width: 2px;
+    height: 280px;
+    background-color: #E7F6F2;
+}
+
+div.tinySq1{
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E7F6F2;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    bottom: 276px;
+    left: 10px;
+    pointer-events:none;
+}
+
+div.tinyCr1{
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    border-color: #E7F6F2;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    bottom: 3px;
+    left: 11px;
+    pointer-events:none;
+}
+
+div.pName{
+    position: absolute;
+    left: 700px;
+    top: 225px;
+}
+
+div.rectangle{
+    position: absolute;
+    top: 60px;
+    left: 160px;
+    height: 600px;
+    width: 1200px;
+    opacity: 80%;
+    background-color: #395B64;
+}
+
+div.circle{
+    position: absolute;
+    top: 155px;
+    left: 285px;
+    height: 250px;
+    width: 250px;
+    border: 2px solid #E7F6F2;
+    border-radius: 50%;
+}
+
+div.menu{
+    position: absolute;
+    left: 1125px;
+    top: 18px;
+    width: auto;
+}
+
+div.sayHi{
+    position: absolute;
+    top: 30px;
+    width: 500px;
+    height: 400px;
+}
+
+.btnAU {
+    font-family: Roboto;
+    font-weight:normal;
+    color: #E7F6F2;
+    position: sticky;
+    margin-left: 30px;
+    text-decoration: none;
+    padding-bottom: 8px;
+    font-size: 18px;
+}
+  
+.btnAU::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #A5C9CA;
+    bottom: 0;
+    left: 0;
+    transform-origin: center;
+    transform: scaleX(0%);
+    transition: transform .3s ease-in-out;
+}
+
+.btnAU:hover::before {
+    transform-origin: center;
+    transform: scaleX(80%);
+}
+
+div.aboutsec{
+    position: absolute;
+    top: 730px;
+    left: 160px;
+    width: 560px;
+    height: 600px;
+    margin-left: 120px;
+    font-family: Roboto;
+    text-align: justify;
+    color: #E7F6F2;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: #A5C9CA;
+}
+
+.subMenu{
+    position: absolute;
+    top: 620px;
+    left: 250px;
+}
+
+.subT {
+    font-family: Roboto;
+    font-weight:normal;
+    cursor: default;
+    color: #E7F6F2;
+    position: sticky;
+    margin-left: 30px;
+    text-decoration: none;   
+}
+
+.subT::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #A5C9CA;
+    bottom: 0;
+    left: 0;
+    transform-origin: center;
+    transform: scaleX(0%);
+    transition: transform 0.5s ease-in-out;
+}
+
+/*.active, .dot:hover {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #A5C9CA;
+    bottom: 0;
+    left: 0;
+    transform-origin: center;
+    transform: scaleX(0%);
+    transition: transform .3s ease-in-out;
+    background-color: #bbb; /*#717171
+}*/
+
+.subT:hover::before {
+    transform-origin: center;
+    transform: scaleX(80%);
+}
+
+/*.dot:active{
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 20px;
+    background-color:#717171;
+    border-radius: 50%;
+    text-indent: 100%;
+    content: none;
+    color: transparent;
+    transition: background-color 0.6s ease;
+}*/
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.0s;
+}
+
+@keyframes fade {
+    from {opacity: .2}
+    to {opacity: 1}
+}
+
+/*#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }*/
