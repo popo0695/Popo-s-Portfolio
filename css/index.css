@@ -267,6 +267,7 @@ div.aboutsec{
 .slideshow-container {
     max-width: 1000px;
     position: absolute;
+    display: flex;
     margin: auto;
 }
 
