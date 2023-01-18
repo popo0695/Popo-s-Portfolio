@@ -10,7 +10,7 @@ body{
 img.hpic{
     position:absolute;
     left: 280px;
-    top: 150px;
+    top: 165px;
     width: 250px;
     border-radius: 50%;
     float: left;
@@ -142,7 +142,7 @@ div.nBar{
 div.sideBord{
     position: absolute;
     right: 135px;
-    bottom: 60px;
+    bottom: 76px;
 }
 
 div.sideBar{
@@ -186,12 +186,12 @@ div.tinyCr1{
 div.pName{
     position: absolute;
     left: 700px;
-    top: 225px;
+    top: 240px;
 }
 
 div.rectangle{
     position: absolute;
-    top: 60px;
+    top: 75px;
     left: 160px;
     height: 600px;
     width: 1200px;
@@ -201,7 +201,7 @@ div.rectangle{
 
 div.circle{
     position: absolute;
-    top: 155px;
+    top: 170px;
     left: 285px;
     height: 250px;
     width: 250px;
@@ -266,7 +266,7 @@ div.aboutsec{
 
 .slideshow-container {
     max-width: 1000px;
-    position: relative;
+    position: absolute;
     margin: auto;
 }
 
@@ -300,7 +300,7 @@ div.aboutsec{
 
 .subMenu{
     position: absolute;
-    top: 620px;
+    top: 635px;
     left: 250px;
 }
 
