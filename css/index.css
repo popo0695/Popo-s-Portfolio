@@ -142,7 +142,7 @@ div.nBar{
 div.sideBord{
     position: absolute;
     right: 135px;
-    bottom: 76px;
+    bottom: 50px;
 }
 
 div.sideBar{
@@ -270,7 +270,7 @@ div.aboutsec{
     margin: auto;
 }
 
-.mySlides {
+.slidefx {
     display: none;
 }
 
